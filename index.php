@@ -1,1 +1,1 @@
-<?php header( 'Location: /babakikavitaye.html' ); ?>
+<?php header( 'Location: /kavitasngrah.html' ); ?>
