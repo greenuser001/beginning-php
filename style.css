@@ -1,0 +1,101 @@
+*{
+margin: 0;
+padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: auto;
+  background: linear-gradient(to bottom right, #00ffff 0%, #0066ff 85%);
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+
+#nav-bar{
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	z-index: 10;
+	overflow: visible;
+}
+.navbar{
+	background-image: linear-gradient(to right, #a516ba, #5f1782 );
+	padding: 0 !important;
+}
+
+.navbar-nav li{
+	padding: 0 10px;
+}
+
+.navbar-nav li a{
+	color: #fff !important;
+	font-weight: 600;
+	float: right;
+	text-align: left;
+	
+}
+.fa-bars{
+	color: #fff;
+	font-weight: 30px !important;
+}
+.navbar-toggler{
+	outline: none !important;
+}
+
+/*--------------------- Banner Section  ----------------------*/
+
+#banner{
+	background-image: linear-gradient(to right, #00ffff 0%, #0066ff 85% );
+	color: #fff;
+	padding: 5%;
+}
+
+
+/* ------------------ footer section  ------------------*/
+#footer{
+	background-color: #f8f9fa;
+	padding: 10px 0;
+}
+#footer p{
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
